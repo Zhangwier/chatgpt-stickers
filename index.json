@@ -1,9 +1,28 @@
 {
   "name": "ChatGPT Stickers — community-friendly sticker library",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "status": "ready",
   "base_url": "https://raw.githubusercontent.com/Zhangwier/chatgpt-stickers/main/",
   "stickers": [
+    {
+      "id": "gpt-dragon-01-summon",
+      "caption": "召唤成功！",
+      "usage": "唤醒知微、回应呼唤、打招呼",
+      "file": "packs/gpt-dragon/01-summon-preview.webp",
+      "original": null,
+      "available": true,
+      "original_available": false,
+      "pack": "gpt-dragon",
+      "resolution": "80x80",
+      "variant": "lightweight-preview",
+      "tags": [
+        "召唤",
+        "来了",
+        "知微",
+        "GPT",
+        "问候"
+      ]
+    },
     {
       "id": "01-zaima",
       "caption": "在吗？",
