@@ -1,38 +1,40 @@
-# 知微 · 白毛龙娘表情包 🐉
+# ChatGPT Stickers 🐉
 
-原创虚拟角色「知微 / 微微」的 Q 版聊天表情包。形象：银白发、浅紫色眼睛、白色龙角、小龙翼和龙尾、白紫配色服装。
+**一个可下载、复用、扩展的 ChatGPT 主题表情包集合。**
 
-> 当前状态：仓库索引已建立。PNG 图片上传尚未完成，下面的预览在上传前可能无法显示。
+A community-friendly collection of ChatGPT-inspired stickers and emotes. **非 OpenAI 官方项目。**
 
-## 表情列表
+> 仓库正在迁移至通用名称 `chatgpt-stickers`。目前已上传第一张「知微」PNG，其余图片仍在上传中。
 
-| 表情 | 用途 | 预览 |
+## 现有系列
+
+### 知微 / Weiwei · White Dragon Girl
+原创白发龙娘角色：银白长发、紫瞳、小龙角、白紫色服装、小龙翼与龙尾。
+
+| 预览 | 名称 | 状态 |
 |---|---|---|
-| 在吗？ | 打招呼 | ![在吗？](stickers/01-zaima.png) |
-| 收到！ | 接受任务 | ![收到！](stickers/02-shoudao.png) |
-| 让我想想 | 思考 | ![让我想想](stickers/03-xiangxiang.png) |
-| 哼！ | 生气 | ![哼！](stickers/04-heng.png) |
-| 搞定啦 | 完成任务 | ![搞定啦](stickers/05-gaoding.png) |
-| 怎么又是Excel啊 | 崩溃 | ![Excel](stickers/06-excel.png) |
+| ![在吗？](stickers/01-zaima.png) | 在吗？ / Hello | 已上传 |
+| 收到！ | 接受任务 | 待上传 |
+| 让我想想 | 思考 | 待上传 |
+| 哼！ | 生气 | 待上传 |
+| 搞定啦 | 完成任务 | 待上传 |
+| 怎么又是 Excel 啊 | 崩溃 | 待上传 |
 
-## 目录约定
+**已上传图片：** [在吗？ · PNG](stickers/01-zaima.png)  
+**原始机器可读索引：** [index.json](index.json)
 
-- `stickers/`：512×512 透明背景 PNG，适用于聊天表情
-- `originals/`：1254×1254 高清原图
-- `index.json`：表情 ID、文字、用途和固定路径
+## 使用
 
-## 引用方式
+1. 打开 PNG，保存图片；
+2. 添加到微信、QQ、Discord 或其他支持自定义表情的聊天软件；
+3. 通过永久路径引用，比如 `https://raw.githubusercontent.com/Zhangwier/zhiwei-stickers/main/stickers/01-zaima.png`。仓库更名后旧链接通常由 GitHub 重定向，但建议以最终名称更新自己的链接。
 
-本公开仓库上传 PNG 后可用 Raw URL 引用：
+欢迎下载用于**个人聊天表情**。本仓库暂未设置适用于所有形式再分发和商用的开源许可证；其他用途请先征得仓库所有者许可。
 
-```
-https://raw.githubusercontent.com/Zhangwier/zhiwei-stickers/main/stickers/01-zaima.png
-```
+## 目录与贡献
 
-**注意：** GitHub 是图片资源库，不是 ChatGPT 内置表情栏。能否直接显示取决于所用聊天客户端对远程图片的支持。
+- `stickers/`：聊天用透明底图片
+- `originals/`：高清原图（计划上传）
+- `index.json`：稳定 ID / 文案 / 路径 / 上传状态
 
-## 添加新表情
-
-保持旧文件名不变，把新增图片放入 `stickers/`，并在 `index.json` 追加对应记录。建议用固定的英文/拼音 ID，方便长期引用。
-
-本仓库人物是原创虚拟角色设定；具体图片由 AI 辅助生成。
+将来可以增加其他角色系列，按照 `packs/<series>/` 分类。欢迎通过 Issue 提交想要的表情场景和改进建议。
