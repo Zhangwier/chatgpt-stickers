@@ -5,7 +5,15 @@ A community-friendly collection of ChatGPT-inspired stickers and emotes.
 
 > 非 OpenAI 官方项目（Unofficial fan-made project）。本仓库的「知微」是一位原创的白发龙娘虚拟角色。
 
-## 已发布：知微 / Weiwei · White Dragon Girl
+## GPT 白龙娘系列（优先使用）
+
+| 表情 | 用途 | 文件 |
+|---|---|---|
+| ![召唤成功](packs/gpt-dragon/01-summon-preview.webp) | “小薇小薇”、召唤成功、打招呼 | [轻量预览 WebP（80×80）](packs/gpt-dragon/01-summon-preview.webp) |
+
+说明：这是从新生成的 GPT 龙娘形象制作并上传的**轻量预览版**，不是高清原图；高清版本尚未同步入库。内容为非官方同人创作。
+
+## 历史草稿：知微 / Weiwei · White Dragon Girl
 
 银白长发、浅紫色眼睛、白色龙角、小龙翼与龙尾，白紫配色。
 
