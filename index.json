@@ -1,8 +1,8 @@
 {
   "name": "ChatGPT Stickers — community-friendly sticker library",
-  "version": "1.0.0",
-  "status": "partially_uploaded",
-  "base_url": "https://raw.githubusercontent.com/Zhangwier/zhiwei-stickers/main/",
+  "version": "1.1.0",
+  "status": "ready",
+  "base_url": "https://raw.githubusercontent.com/Zhangwier/chatgpt-stickers/main/",
   "stickers": [
     {
       "id": "01-zaima",
@@ -11,7 +11,8 @@
       "file": "stickers/01-zaima.png",
       "original": "originals/01-zaima.png",
       "available": true,
-      "original_available": false
+      "original_available": true,
+      "pack": "zhiwei-white-dragon"
     },
     {
       "id": "02-shoudao",
@@ -19,8 +20,9 @@
       "usage": "接受任务",
       "file": "stickers/02-shoudao.png",
       "original": "originals/02-shoudao.png",
-      "available": false,
-      "original_available": false
+      "available": true,
+      "original_available": true,
+      "pack": "zhiwei-white-dragon"
     },
     {
       "id": "03-xiangxiang",
@@ -28,8 +30,9 @@
       "usage": "思考",
       "file": "stickers/03-xiangxiang.png",
       "original": "originals/03-xiangxiang.png",
-      "available": false,
-      "original_available": false
+      "available": true,
+      "original_available": true,
+      "pack": "zhiwei-white-dragon"
     },
     {
       "id": "04-heng",
@@ -37,8 +40,9 @@
       "usage": "生气",
       "file": "stickers/04-heng.png",
       "original": "originals/04-heng.png",
-      "available": false,
-      "original_available": false
+      "available": true,
+      "original_available": true,
+      "pack": "zhiwei-white-dragon"
     },
     {
       "id": "05-gaoding",
@@ -46,8 +50,9 @@
       "usage": "完成任务",
       "file": "stickers/05-gaoding.png",
       "original": "originals/05-gaoding.png",
-      "available": false,
-      "original_available": false
+      "available": true,
+      "original_available": true,
+      "pack": "zhiwei-white-dragon"
     },
     {
       "id": "06-excel",
@@ -55,8 +60,9 @@
       "usage": "崩溃",
       "file": "stickers/06-excel.png",
       "original": "originals/06-excel.png",
-      "available": false,
-      "original_available": false
+      "available": true,
+      "original_available": true,
+      "pack": "zhiwei-white-dragon"
     }
   ]
 }

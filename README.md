@@ -1,40 +1,42 @@
 # ChatGPT Stickers 🐉
 
-**一个可下载、复用、扩展的 ChatGPT 主题表情包集合。**
+**一个可下载、复用、持续扩展的 ChatGPT 主题表情包仓库。**
+A community-friendly collection of ChatGPT-inspired stickers and emotes.
 
-A community-friendly collection of ChatGPT-inspired stickers and emotes. **非 OpenAI 官方项目。**
+> 非 OpenAI 官方项目（Unofficial fan-made project）。本仓库的「知微」是一位原创的白发龙娘虚拟角色。
 
-> 仓库正在迁移至通用名称 `chatgpt-stickers`。目前已上传第一张「知微」PNG，其余图片仍在上传中。
+## 已发布：知微 / Weiwei · White Dragon Girl
 
-## 现有系列
+银白长发、浅紫色眼睛、白色龙角、小龙翼与龙尾，白紫配色。
 
-### 知微 / Weiwei · White Dragon Girl
-原创白发龙娘角色：银白长发、紫瞳、小龙角、白紫色服装、小龙翼与龙尾。
+| 预览 | 表情 | 场景 | 高清版本 |
+|---|---|---|---|
+| ![在吗？](stickers/01-zaima.png) | 在吗？ | 打招呼 | [1254 px](originals/01-zaima.png) |
+| ![收到！](stickers/02-shoudao.png) | 收到！ | 接收任务 | [1254 px](originals/02-shoudao.png) |
+| ![让我想想](stickers/03-xiangxiang.png) | 让我想想 | 思考 | [1254 px](originals/03-xiangxiang.png) |
+| ![哼！](stickers/04-heng.png) | 哼！ | 气鼓鼓 | [1254 px](originals/04-heng.png) |
+| ![搞定啦](stickers/05-gaoding.png) | 搞定啦 | 完成任务 | [1254 px](originals/05-gaoding.png) |
+| ![怎么又是 Excel 啊](stickers/06-excel.png) | 怎么又是 Excel 啊 | 表格崩溃 | [1254 px](originals/06-excel.png) |
 
-| 预览 | 名称 | 状态 |
-|---|---|---|
-| ![在吗？](stickers/01-zaima.png) | 在吗？ / Hello | 已上传 |
-| 收到！ | 接受任务 | 待上传 |
-| 让我想想 | 思考 | 待上传 |
-| 哼！ | 生气 | 待上传 |
-| 搞定啦 | 完成任务 | 待上传 |
-| 怎么又是 Excel 啊 | 崩溃 | 待上传 |
+## 直接使用 / Usage
 
-**已上传图片：** [在吗？ · PNG](stickers/01-zaima.png)  
-**原始机器可读索引：** [index.json](index.json)
+打开任意 PNG 保存后，添加到微信、QQ、Discord 等支持自定义表情的软件。
+- `stickers/`：透明 PNG 聊天版（512×512）
+- `originals/`：高分辨率 PNG（1254×1254，经过调色板压缩优化，非未处理的生成源文件）
+- `index.json`：可机读的表情索引，包含 ID、文字和相对路径
 
-## 使用
+直接引用示例：
 
-1. 打开 PNG，保存图片；
-2. 添加到微信、QQ、Discord 或其他支持自定义表情的聊天软件；
-3. 通过永久路径引用，比如 `https://raw.githubusercontent.com/Zhangwier/zhiwei-stickers/main/stickers/01-zaima.png`。仓库更名后旧链接通常由 GitHub 重定向，但建议以最终名称更新自己的链接。
+```text
+https://raw.githubusercontent.com/Zhangwier/chatgpt-stickers/main/stickers/01-zaima.png
+```
 
-欢迎下载用于**个人聊天表情**。本仓库暂未设置适用于所有形式再分发和商用的开源许可证；其他用途请先征得仓库所有者许可。
+访问 `index.json`，根据 `base_url + stickers[].file` 获取完整图片 URL。GitHub 原始图片链接需联网；聊天客户端是否支持外链内嵌，由客户端决定。
 
-## 目录与贡献
+## 自由使用与贡献 / Contributing
 
-- `stickers/`：聊天用透明底图片
-- `originals/`：高清原图（计划上传）
-- `index.json`：稳定 ID / 文案 / 路径 / 上传状态
+欢迎下载并用于个人日常聊天，也欢迎通过 Issue 提交新表情点子、修图反馈或建议。仓库计划继续扩展其他 ChatGPT/AI 主题角色和表情系列。
 
-将来可以增加其他角色系列，按照 `packs/<series>/` 分类。欢迎通过 Issue 提交想要的表情场景和改进建议。
+目前没有为素材指定完整的商用或再分发授权许可证；请勿将此仓库视为 OpenAI 官方素材库，商业或批量再发布使用请联系仓库所有者确认。
+
+本仓库保留已有稳定文件名和 URL；扩展新系列时优先使用 `packs/<series>/`，并更新 `index.json`。
