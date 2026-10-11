@@ -1,6 +1,6 @@
 {
   "name": "ChatGPT Stickers — community-friendly sticker library",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "status": "ready",
   "base_url": "https://raw.githubusercontent.com/Zhangwier/chatgpt-stickers/main/",
   "stickers": [
@@ -32,7 +32,7 @@
       "available": true,
       "original_available": true,
       "pack": "zhiwei-white-dragon",
-      "series_status": "legacy_draft"
+      "series_status": "active"
     },
     {
       "id": "02-shoudao",
@@ -43,7 +43,7 @@
       "available": true,
       "original_available": true,
       "pack": "zhiwei-white-dragon",
-      "series_status": "legacy_draft"
+      "series_status": "active"
     },
     {
       "id": "03-xiangxiang",
@@ -54,7 +54,7 @@
       "available": true,
       "original_available": true,
       "pack": "zhiwei-white-dragon",
-      "series_status": "legacy_draft"
+      "series_status": "active"
     },
     {
       "id": "04-heng",
@@ -65,7 +65,7 @@
       "available": true,
       "original_available": true,
       "pack": "zhiwei-white-dragon",
-      "series_status": "legacy_draft"
+      "series_status": "active"
     },
     {
       "id": "05-gaoding",
@@ -76,7 +76,7 @@
       "available": true,
       "original_available": true,
       "pack": "zhiwei-white-dragon",
-      "series_status": "legacy_draft"
+      "series_status": "active"
     },
     {
       "id": "06-excel",
@@ -87,14 +87,16 @@
       "available": true,
       "original_available": true,
       "pack": "zhiwei-white-dragon",
-      "series_status": "legacy_draft"
+      "series_status": "active"
     }
   ],
   "usage_policy": {
-    "preferred_pack": "gpt-dragon",
-    "legacy_pack": "zhiwei-white-dragon",
-    "priority": "Prefer verified gpt-dragon image from repo over new generation, text emoticons, and unrelated images",
+    "priority": "Prefer contextually appropriate verified images already in repository; all published packs are equally valid, regardless of age or GPT logo.",
+    "packs": [
+      "zhiwei-white-dragon",
+      "gpt-dragon"
+    ],
     "new_sticker": "Upload and verify before marking available",
-    "display": "Embed verified GitHub image when supported, otherwise link; never substitute search imagery"
+    "display": "Embed verified GitHub image when supported, otherwise link; never substitute unrelated imagery"
   }
 }
