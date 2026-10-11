@@ -1,0 +1,50 @@
+{
+  "name": "知微的龙娘表情包",
+  "version": "1.0.0",
+  "status": "image_upload_pending",
+  "base_url": "https://raw.githubusercontent.com/Zhangwier/zhiwei-stickers/main/",
+  "stickers": [
+    {
+      "id": "01-zaima",
+      "caption": "在吗？",
+      "usage": "打招呼",
+      "file": "stickers/01-zaima.png",
+      "original": "originals/01-zaima.png"
+    },
+    {
+      "id": "02-shoudao",
+      "caption": "收到！",
+      "usage": "接受任务",
+      "file": "stickers/02-shoudao.png",
+      "original": "originals/02-shoudao.png"
+    },
+    {
+      "id": "03-xiangxiang",
+      "caption": "让我想想",
+      "usage": "思考",
+      "file": "stickers/03-xiangxiang.png",
+      "original": "originals/03-xiangxiang.png"
+    },
+    {
+      "id": "04-heng",
+      "caption": "哼！",
+      "usage": "生气",
+      "file": "stickers/04-heng.png",
+      "original": "originals/04-heng.png"
+    },
+    {
+      "id": "05-gaoding",
+      "caption": "搞定啦",
+      "usage": "完成任务",
+      "file": "stickers/05-gaoding.png",
+      "original": "originals/05-gaoding.png"
+    },
+    {
+      "id": "06-excel",
+      "caption": "怎么又是Excel啊",
+      "usage": "崩溃",
+      "file": "stickers/06-excel.png",
+      "original": "originals/06-excel.png"
+    }
+  ]
+}
