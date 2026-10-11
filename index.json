@@ -1,26 +1,27 @@
 {
   "name": "ChatGPT Stickers — community-friendly sticker library",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "status": "ready",
   "base_url": "https://raw.githubusercontent.com/Zhangwier/chatgpt-stickers/main/",
   "stickers": [
     {
-      "id": "gpt-dragon-01-summon",
-      "caption": "召唤成功！",
-      "usage": "唤醒知微、回应呼唤、打招呼",
-      "file": "packs/gpt-dragon/01-summon-preview.webp",
+      "id": "gpt-dragon-02-proud-praise",
+      "caption": "以后努力做一只既聪明、又会卖萌、还能认真干活的GPT小龙娘！",
+      "usage": "被夸奖、开心、得意、努力认真干活",
+      "file": "packs/gpt-dragon/02-smart-cute-hardworking-preview.webp",
       "original": null,
       "available": true,
       "original_available": false,
       "pack": "gpt-dragon",
-      "resolution": "80x80",
+      "resolution": "96x96",
       "variant": "lightweight-preview",
+      "emblem_color": "white",
       "tags": [
-        "召唤",
-        "来了",
-        "知微",
-        "GPT",
-        "问候"
+        "夸夸",
+        "鼓励",
+        "得意",
+        "认真",
+        "白色GPT图标"
       ]
     },
     {
