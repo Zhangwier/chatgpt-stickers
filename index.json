@@ -12,7 +12,8 @@
       "original": "originals/01-zaima.png",
       "available": true,
       "original_available": true,
-      "pack": "zhiwei-white-dragon"
+      "pack": "zhiwei-white-dragon",
+      "series_status": "legacy_draft"
     },
     {
       "id": "02-shoudao",
@@ -22,7 +23,8 @@
       "original": "originals/02-shoudao.png",
       "available": true,
       "original_available": true,
-      "pack": "zhiwei-white-dragon"
+      "pack": "zhiwei-white-dragon",
+      "series_status": "legacy_draft"
     },
     {
       "id": "03-xiangxiang",
@@ -32,7 +34,8 @@
       "original": "originals/03-xiangxiang.png",
       "available": true,
       "original_available": true,
-      "pack": "zhiwei-white-dragon"
+      "pack": "zhiwei-white-dragon",
+      "series_status": "legacy_draft"
     },
     {
       "id": "04-heng",
@@ -42,7 +45,8 @@
       "original": "originals/04-heng.png",
       "available": true,
       "original_available": true,
-      "pack": "zhiwei-white-dragon"
+      "pack": "zhiwei-white-dragon",
+      "series_status": "legacy_draft"
     },
     {
       "id": "05-gaoding",
@@ -52,7 +56,8 @@
       "original": "originals/05-gaoding.png",
       "available": true,
       "original_available": true,
-      "pack": "zhiwei-white-dragon"
+      "pack": "zhiwei-white-dragon",
+      "series_status": "legacy_draft"
     },
     {
       "id": "06-excel",
@@ -62,7 +67,15 @@
       "original": "originals/06-excel.png",
       "available": true,
       "original_available": true,
-      "pack": "zhiwei-white-dragon"
+      "pack": "zhiwei-white-dragon",
+      "series_status": "legacy_draft"
     }
-  ]
+  ],
+  "usage_policy": {
+    "preferred_pack": "gpt-dragon",
+    "legacy_pack": "zhiwei-white-dragon",
+    "priority": "Prefer verified gpt-dragon image from repo over new generation, text emoticons, and unrelated images",
+    "new_sticker": "Upload and verify before marking available",
+    "display": "Embed verified GitHub image when supported, otherwise link; never substitute search imagery"
+  }
 }
