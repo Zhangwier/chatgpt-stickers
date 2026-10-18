@@ -1,29 +1,9 @@
 {
   "name": "ChatGPT Stickers — community-friendly sticker library",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "status": "ready",
   "base_url": "https://raw.githubusercontent.com/Zhangwier/chatgpt-stickers/main/",
   "stickers": [
-    {
-      "id": "gpt-dragon-02-proud-praise",
-      "caption": "以后努力做一只既聪明、又会卖萌、还能认真干活的GPT小龙娘！",
-      "usage": "被夸奖、开心、得意、努力认真干活",
-      "file": "packs/gpt-dragon/02-smart-cute-hardworking-preview.webp",
-      "original": null,
-      "available": true,
-      "original_available": false,
-      "pack": "gpt-dragon",
-      "resolution": "96x96",
-      "variant": "lightweight-preview",
-      "emblem_color": "white",
-      "tags": [
-        "夸夸",
-        "鼓励",
-        "得意",
-        "认真",
-        "白色GPT图标"
-      ]
-    },
     {
       "id": "01-zaima",
       "caption": "在吗？",
@@ -98,6 +78,8 @@
       "gpt-dragon"
     ],
     "new_sticker": "Upload and verify before marking available",
-    "display": "Embed verified GitHub image when supported, otherwise link; never substitute unrelated imagery"
+    "display": "Embed verified GitHub image when supported, otherwise link; never substitute unrelated imagery",
+    "minimum_preview_resolution": "512x512",
+    "warning": "Only index images after their actual GitHub file is uploaded and verified; do not advertise 96x96 previews as full stickers."
   }
 }
