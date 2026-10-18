@@ -1,19 +1,219 @@
 {
-  "name": "ChatGPT Stickers — community-friendly sticker library",
-  "version": "1.3.1",
+  "name": "ChatGPT Stickers — Zhiwei / Weiwei",
+  "version": "2.0.0",
   "status": "ready",
   "base_url": "https://raw.githubusercontent.com/Zhangwier/chatgpt-stickers/main/",
+  "sticker_policy": {
+    "default_pack": "zhiwei-2026-approved",
+    "priority": "Use only verified entries in stickers for spontaneous chat reactions; match tags and usage.",
+    "external_image_rule": "Use actual raw.githubusercontent.com URLs; only embed when the chat client supports it.",
+    "notes": "Current curated art is cropped from user-supplied screenshots, not verified author-original assets. It may contain a faint platform watermark. No transparency claimed. Do not upscale and claim native HD. Do not assume image licenses.",
+    "sensitive_reaction_rule": "Only auto-use entries where auto_use is true.",
+    "chat_auto_send_not_guaranteed": true
+  },
   "stickers": [
+    {
+      "id": "zhiwei-01-pout-arms",
+      "caption": "抱臂不服",
+      "usage": "不服、嘴硬、轻微抗议",
+      "file": "stickers/01-pout-arms.webp",
+      "original": "originals/01-pout-arms.webp",
+      "available": true,
+      "auto_use": true,
+      "pack": "zhiwei-2026-approved",
+      "tags": [
+        "不服",
+        "傲娇",
+        "抱臂"
+      ],
+      "preview_resolution": "512x512",
+      "original_resolution": "702x702",
+      "preview_mime": "image/webp",
+      "original_mime": "image/webp",
+      "transparent_background": false,
+      "source_quality": "cropped-user-supplied-screenshot"
+    },
+    {
+      "id": "zhiwei-02-thinking",
+      "caption": "疑惑思考",
+      "usage": "思考、疑问、没看懂",
+      "file": "stickers/02-thinking.webp",
+      "original": "originals/02-thinking.webp",
+      "available": true,
+      "auto_use": true,
+      "pack": "zhiwei-2026-approved",
+      "tags": [
+        "思考",
+        "困惑",
+        "问号"
+      ],
+      "preview_resolution": "512x512",
+      "original_resolution": "702x702",
+      "preview_mime": "image/webp",
+      "original_mime": "image/webp",
+      "transparent_background": false,
+      "source_quality": "cropped-user-supplied-screenshot"
+    },
+    {
+      "id": "zhiwei-03-wave",
+      "caption": "挥手招呼",
+      "usage": "打招呼、欢迎、问候",
+      "file": "stickers/03-wave.webp",
+      "original": "originals/03-wave.webp",
+      "available": true,
+      "auto_use": true,
+      "pack": "zhiwei-2026-approved",
+      "tags": [
+        "你好",
+        "挥手",
+        "欢迎"
+      ],
+      "preview_resolution": "512x512",
+      "original_resolution": "702x702",
+      "preview_mime": "image/webp",
+      "original_mime": "image/webp",
+      "transparent_background": false,
+      "source_quality": "cropped-user-supplied-screenshot"
+    },
+    {
+      "id": "zhiwei-04-angry",
+      "caption": "气鼓鼓",
+      "usage": "生气、撒娇式抗议",
+      "file": "stickers/04-angry.webp",
+      "original": "originals/04-angry.webp",
+      "available": true,
+      "auto_use": true,
+      "pack": "zhiwei-2026-approved",
+      "tags": [
+        "生气",
+        "气鼓鼓",
+        "不满"
+      ],
+      "preview_resolution": "512x512",
+      "original_resolution": "702x702",
+      "preview_mime": "image/webp",
+      "original_mime": "image/webp",
+      "transparent_background": false,
+      "source_quality": "cropped-user-supplied-screenshot"
+    },
+    {
+      "id": "zhiwei-05-rude",
+      "caption": "挑衅手势",
+      "usage": "仅限双方明确接受的熟人玩笑",
+      "file": "stickers/05-rude.webp",
+      "original": "originals/05-rude.webp",
+      "available": true,
+      "auto_use": false,
+      "pack": "zhiwei-2026-approved",
+      "tags": [
+        "特殊",
+        "玩笑",
+        "挑衅"
+      ],
+      "preview_resolution": "512x512",
+      "original_resolution": "702x702",
+      "preview_mime": "image/webp",
+      "original_mime": "image/webp",
+      "transparent_background": false,
+      "source_quality": "cropped-user-supplied-screenshot"
+    },
+    {
+      "id": "zhiwei-06-sad-rain",
+      "caption": "委屈下雨",
+      "usage": "委屈、失落、难过",
+      "file": "stickers/06-sad-rain.webp",
+      "original": "originals/06-sad-rain.webp",
+      "available": true,
+      "auto_use": true,
+      "pack": "zhiwei-2026-approved",
+      "tags": [
+        "哭哭",
+        "委屈",
+        "伤心"
+      ],
+      "preview_resolution": "512x512",
+      "original_resolution": "702x702",
+      "preview_mime": "image/webp",
+      "original_mime": "image/webp",
+      "transparent_background": false,
+      "source_quality": "cropped-user-supplied-screenshot"
+    },
+    {
+      "id": "zhiwei-07-grumpy",
+      "caption": "闷闷不乐",
+      "usage": "不开心、无语、闹别扭",
+      "file": "stickers/07-grumpy.webp",
+      "original": "originals/07-grumpy.webp",
+      "available": true,
+      "auto_use": true,
+      "pack": "zhiwei-2026-approved",
+      "tags": [
+        "不开心",
+        "无语",
+        "郁闷"
+      ],
+      "preview_resolution": "512x512",
+      "original_resolution": "702x702",
+      "preview_mime": "image/webp",
+      "original_mime": "image/webp",
+      "transparent_background": false,
+      "source_quality": "cropped-user-supplied-screenshot"
+    },
+    {
+      "id": "zhiwei-08-peeking",
+      "caption": "探头偷看",
+      "usage": "偷看、冒泡、突然出现",
+      "file": "stickers/08-peeking.webp",
+      "original": "originals/08-peeking.webp",
+      "available": true,
+      "auto_use": true,
+      "pack": "zhiwei-2026-approved",
+      "tags": [
+        "探头",
+        "偷看",
+        "好奇"
+      ],
+      "preview_resolution": "512x512",
+      "original_resolution": "702x702",
+      "preview_mime": "image/webp",
+      "original_mime": "image/webp",
+      "transparent_background": false,
+      "source_quality": "cropped-user-supplied-screenshot"
+    },
+    {
+      "id": "zhiwei-09-excited",
+      "caption": "星星眼开心",
+      "usage": "兴奋、期待、被夸、喜欢",
+      "file": "stickers/09-excited.webp",
+      "original": "originals/09-excited.webp",
+      "available": true,
+      "auto_use": true,
+      "pack": "zhiwei-2026-approved",
+      "tags": [
+        "开心",
+        "星星眼",
+        "期待"
+      ],
+      "preview_resolution": "512x512",
+      "original_resolution": "702x702",
+      "preview_mime": "image/webp",
+      "original_mime": "image/webp",
+      "transparent_background": false,
+      "source_quality": "cropped-user-supplied-screenshot"
+    }
+  ],
+  "legacy_unreviewed": [
     {
       "id": "01-zaima",
       "caption": "在吗？",
       "usage": "打招呼",
       "file": "stickers/01-zaima.png",
       "original": "originals/01-zaima.png",
-      "available": true,
+      "available": false,
       "original_available": true,
       "pack": "zhiwei-white-dragon",
-      "series_status": "active"
+      "series_status": "needs-visual-review",
+      "note": "Old asset retained only for rollback; not part of active sticker selection"
     },
     {
       "id": "02-shoudao",
@@ -21,10 +221,11 @@
       "usage": "接受任务",
       "file": "stickers/02-shoudao.png",
       "original": "originals/02-shoudao.png",
-      "available": true,
+      "available": false,
       "original_available": true,
       "pack": "zhiwei-white-dragon",
-      "series_status": "active"
+      "series_status": "needs-visual-review",
+      "note": "Old asset retained only for rollback; not part of active sticker selection"
     },
     {
       "id": "03-xiangxiang",
@@ -32,10 +233,11 @@
       "usage": "思考",
       "file": "stickers/03-xiangxiang.png",
       "original": "originals/03-xiangxiang.png",
-      "available": true,
+      "available": false,
       "original_available": true,
       "pack": "zhiwei-white-dragon",
-      "series_status": "active"
+      "series_status": "needs-visual-review",
+      "note": "Old asset retained only for rollback; not part of active sticker selection"
     },
     {
       "id": "04-heng",
@@ -43,10 +245,11 @@
       "usage": "生气",
       "file": "stickers/04-heng.png",
       "original": "originals/04-heng.png",
-      "available": true,
+      "available": false,
       "original_available": true,
       "pack": "zhiwei-white-dragon",
-      "series_status": "active"
+      "series_status": "needs-visual-review",
+      "note": "Old asset retained only for rollback; not part of active sticker selection"
     },
     {
       "id": "05-gaoding",
@@ -54,10 +257,11 @@
       "usage": "完成任务",
       "file": "stickers/05-gaoding.png",
       "original": "originals/05-gaoding.png",
-      "available": true,
+      "available": false,
       "original_available": true,
       "pack": "zhiwei-white-dragon",
-      "series_status": "active"
+      "series_status": "needs-visual-review",
+      "note": "Old asset retained only for rollback; not part of active sticker selection"
     },
     {
       "id": "06-excel",
@@ -65,21 +269,11 @@
       "usage": "崩溃",
       "file": "stickers/06-excel.png",
       "original": "originals/06-excel.png",
-      "available": true,
+      "available": false,
       "original_available": true,
       "pack": "zhiwei-white-dragon",
-      "series_status": "active"
+      "series_status": "needs-visual-review",
+      "note": "Old asset retained only for rollback; not part of active sticker selection"
     }
-  ],
-  "usage_policy": {
-    "priority": "Prefer contextually appropriate verified images already in repository; all published packs are equally valid, regardless of age or GPT logo.",
-    "packs": [
-      "zhiwei-white-dragon",
-      "gpt-dragon"
-    ],
-    "new_sticker": "Upload and verify before marking available",
-    "display": "Embed verified GitHub image when supported, otherwise link; never substitute unrelated imagery",
-    "minimum_preview_resolution": "512x512",
-    "warning": "Only index images after their actual GitHub file is uploaded and verified; do not advertise 96x96 previews as full stickers."
-  }
+  ]
 }
